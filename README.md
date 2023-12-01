@@ -20,6 +20,10 @@ With Dear ImGui:
 
 1. Add `./include/imgui/*.cpp` to the command. Compile with `g++ -I ./include -L ./lib ./src/main.cpp ./src/glad.c ./include/imgui/*.cpp -lglfw3dll -o main.exe`
 
+With Assimp:
+
+1. Add `-lassimp` to the command. Compile with `g++ -I ./include -L ./lib ./src/main.cpp ./src/glad.c -lglfw3dll lassimp -o main.exe`
+
 ## Made this by yourself
 
 Basic setup:
@@ -38,3 +42,7 @@ Add GLM:
 Add Dear ImGui:
 
 1. Follow instructions [here](https://github.com/ocornut/imgui)
+
+Add Assimp:
+
+1. Follow instructions [here](https://github.com/assimp/assimp)
