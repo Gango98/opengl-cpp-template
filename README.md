@@ -16,6 +16,10 @@ With GLM:
 
 1. The compile command doesn't change
 
+With Dear ImGui:
+
+1. Add `./include/imgui/*.cpp` to the command. Compile with `g++ -I ./include -L ./lib ./src/main.cpp ./src/glad.c ./include/imgui/*.cpp -lglfw3dll -o main.exe`
+
 ## Made this by yourself
 
 Basic setup:
@@ -30,3 +34,7 @@ Add GLM:
 
 1. Download GLM from [here](https://glm.g-truc.net/0.9.8/index.html). Press "Downloads", select the latest version and download lathe zip file
 2. Add glm folder in the ./include folder
+
+Add Dear ImGui:
+
+1. Follow instructions [here](https://github.com/ocornut/imgui)
